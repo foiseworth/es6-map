@@ -1,0 +1,12 @@
+let map = new Map();
+
+map.set('foo', 123);
+map.get('foo')
+// 123
+
+map.has('foo')
+// true
+map.delete('foo')
+// true
+map.has('foo')
+// false

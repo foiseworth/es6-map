@@ -1,0 +1,12 @@
+for (let [key, value] of petsAges.entries()) {
+  console.log(key, value);
+}
+
+petsAges[Symbol.iterator] === petsAges.entries
+// true
+
+for (let [key, value] of petsAges) {
+   console.log(key, value);
+}
+
+Math.max(...petsAges.values()); // 2.1

@@ -1,0 +1,20 @@
+const petsAges = new Map().set('Magnus', 2.1)
+                          .set('Thenae', 2)
+
+for (let key of petsAges.keys()) {
+  console.log(key);
+}
+// Magnus
+// Thenae
+
+for (let value of petsAges.values()) {
+  console.log(value);
+}
+// 2.1
+// 2
+
+for (let entry of petsAges.entries()) {
+  console.log(entry[0], entry[1]);
+}
+// Magnus 2.1
+// Thenae 2
